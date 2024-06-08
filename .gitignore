@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+poetry.lock
+tree.py
+.env
+.lightning_studio
+.embedchain

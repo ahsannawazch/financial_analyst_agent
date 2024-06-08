@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "agents using crewai"
+version = "0.1.0"
+description = "Creating Agents using crewai and deploying it"
+authors = ["Ahsan Nawaz <ahsan.nawaz97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+crewai = "^0.30.11"
+python-dotenv = "^1.0.1"
+langchain-cohere = "^0.1.5"
+sec-api = "^1.0.18"
+unstructured = {extras = ["html"], version = "^0.14.5"}
+
+[tool.poetry.scripts]
+agent = "financial_analyst_crew.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
