@@ -14,7 +14,7 @@ sec-api = "^1.0.18"
 unstructured = {extras = ["html"], version = "^0.14.5"}
 
 [tool.poetry.scripts]
-financial_analyst = "financial_analyst_crew.main:run"
+agent = "financial_analyst_crew.main:run"
 
 [build-system]
 requires = ["poetry-core"]
